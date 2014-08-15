@@ -1,0 +1,13 @@
+because I'm doing it over one dimension that means there is only one concern: time.
+This means that everything should be relative to time. Which means that the variable 'c'
+should be in terms of (duration - startTime) because the change in value is really the duration that the interval plays over. This removes the variable, simplifies the equation, and should
+let you be able to apply different tweening distributions now.
+# t - current time
+# b - start time
+# c - change in value
+# d - duration
+
+
+Modify in-out to be out-in. Try and identify if you can do it mutliple different ways, then generalize that so each equation can be applied dynamically?
+
+Used equation to fit points to bell curve for standard distribution?
