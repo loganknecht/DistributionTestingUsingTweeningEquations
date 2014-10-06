@@ -353,7 +353,7 @@ def DistributeGenerationObjectsOverInterval(startTime, durationInSeconds, number
     generationObjects = GetDistribution(startTime, durationInSeconds, numberOfGenerationObjectsToDistribute, distributionType);
 
     ############################################################################
-    #matplotlib.pyplot.bar(left, height, width=0.8, bottom=None, hold=None, **kwargs)¶
+    #matplotlib.pyplot.bar(left, height, width=0.8, bottom=None, hold=None, **kwargs)
     for generationObject in generationObjects:
       if(generationObject not in numbersDictionary):
         numbersDictionary[generationObject] = 1
